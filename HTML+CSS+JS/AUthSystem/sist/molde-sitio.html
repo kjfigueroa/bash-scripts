@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../estilos/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--
+        Inicia Codigo para Barra de menu superior
+    -->
+    <div class="topnav" id="myTopnav">
+        <script href="../jscripts/navbar.js"></script>      
+        <logo>User Authentication System</logo>
+        <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="#services"><i class="fa fa-cubes" aria-hidden="true"></i></a>
+        <a href="#register"><i class="fa fa-users" aria-hidden="true"></i></a>
+        <a href="#add-user"><i class="fa fa-user-plus" aria-hidden="true"></i></a>
+        <a href="#del-user"><i class="fa fa-user-times" aria-hidden="true"></i></a>
+        <a href="#Home" class="active"><i class="fa fa-user" aria-hidden="true"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!--
+        Termina Codigo para Barra de menu superior
+    -->
+
+    <div style="padding-left:16px">
+        <h2>Cuerpo de Pagina</h2>
+        <p>Descripción Cuerpo de Pagina.</p>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Auth System</title>
+    <link href="estilos/forms.css" type="text/css" rel="stylesheet">
+    <link href="estilos/barra-navegacion.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- Body of Form starts -->
+  	<div class="container-r">
+      <form method="post" autocomplete="on">
+        <!--First name-->
+    		<div class="box">
+          <label for="firstName" class="fl fontLabel"> First Name: </label>
+    			<div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+    			<div class="fr">
+    					<input type="text" name="firstName" placeholder="First Name"
+              class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--First name-->
+
+
+        <!--Second name-->
+    		<div class="box">
+          <label for="secondName" class="fl fontLabel"> Seconed Name: </label>
+    			<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="secondName"
+              placeholder="Last Name" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Second name-->
+
+
+    		<!---Phone No.------>
+    		<div class="box">
+          <label for="phone" class="fl fontLabel"> Phone No.: </label>
+    			<div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="phoneNo" maxlength="10" placeholder="Phone No." class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Phone No.---->
+
+
+    		<!---Email ID---->
+    		<div class="box">
+          <label for="email" class="fl fontLabel"> Email ID: </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="email" required name="email" placeholder="Email Id" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Email ID----->
+
+
+    		<!---Password------>
+    		<div class="box">
+          <label for="password" class="fl fontLabel"> Password </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="Password" required name="password" placeholder="Password" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Password---->
+
+            <!---Rank----->
+    		<div class="box radio">
+                <label for="rank" class="fl fontLabel"> Rank: </label>
+                          <input type="radio" name="rank" value="Male" required> Padawan &nbsp; &nbsp;
+                          <input type="radio" name="rank" value="Male" required> Knight &nbsp; &nbsp;
+                          <input type="radio" name="rank" value="Male" required> Master
+                  </div>
+                  <!---Rank--->
+      
+
+    		<!---Submit Button------>
+    		<div class="box" style="background: #2d3e3f">
+    				<input type="Submit" name="Submit" class="submit" value="SUBMIT">
+    		</div>
+    		<!---Submit Button----->
+      </form>
+      <div class="marca">&#x40; Kevin</div>
+  </div>
+
+  <header>
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+      <div class="content">
+      <div class="logo">User Authentication System</div>
+        <ul class="links">
+          <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+          <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a></li>
+          <li>
+            <a href="#" class="desktop-link"><i class="fa fa-cog" aria-hidden="true"></i> Services</a>
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+  <!--Body of Form ends--->
+  </body>
+</html>
