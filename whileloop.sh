@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# An example using the while loop
+# Playing with while loop
 # By Kevin J. Figueroa
 
 #just for print some styles in our outputs...
