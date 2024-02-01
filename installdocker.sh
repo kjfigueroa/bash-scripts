@@ -1,4 +1,4 @@
-i#!/bin/bash
+#!/bin/bash
 
 # Installing Docker Engine for Ubuntu.
 # According notes from: https://docs.docker.com/engine/install/ubuntu/
